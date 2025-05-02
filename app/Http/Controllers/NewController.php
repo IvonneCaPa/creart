@@ -7,16 +7,16 @@ use Illuminate\Http\Request;
 class NewController extends Controller
 {
     public function index(){
-        return view('news.index');
+        return view('events.index');
     }
 
     public function create(){
-        return view('news.create');
+        return view('events.create');
     }
 
-    public function show($new){
+    public function show($event){
         //return view('news.show', ['new' => $new]); //otra manera
-        return view('news.show', compact('new'));
+        return view('events.show', compact('event'));
         
     }
 }

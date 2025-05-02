@@ -9,9 +9,9 @@ use App\Http\Controllers\NewController;
 Route::get('/', HomeController::class);
 
 Route::controller(NewController::class)->group(function(){
-    Route::get('news', 'index');
-    Route::get('news/create', 'create');
-    Route::get('news/{new}', 'show');
+    Route::get('events', 'index');
+    Route::get('events/create', 'create');
+    Route::get('events/{event}', 'show');
 });
 
 

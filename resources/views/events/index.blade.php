@@ -1,7 +1,7 @@
 @extends('layouts.plantilla')
 
-@section('title', 'noticias')
+@section('title', 'eventos')
 
 @section('content')
-<h1>Bienvenido a las noticias</h1>
+<h1>Bienvenido a nuestra agenda</h1>
 @endsection()

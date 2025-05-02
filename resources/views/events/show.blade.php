@@ -1,9 +1,9 @@
 @extends('layouts.plantilla')
 
 @section('title')
-    {{$new}}
+    {{$event}}
 @endsection()
 
 @section('content')
-    <h1>Bienvenido a las noticias de {{$new}}</h1>
+    <h1>Aqui veremos cada evento/actividad {{$event}}</h1>
 @endsection()
